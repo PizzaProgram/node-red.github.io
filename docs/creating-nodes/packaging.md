@@ -122,6 +122,14 @@ do with your code.
 
 There are lots of guides to publishing a package to the npm repository.
 A basic overview is available [here](https://docs.npmjs.com/misc/developers).
+Quick example:
+```
+$ npm login
+User: ****
+Password: ***
+$ cd <your-project-directory>
+$ npm publish --access public
+```
 
 ### Adding to flows.nodered.org
 
